@@ -7,6 +7,7 @@ const {
 	JWT_EXPIRES,
 	JWT_SECRET,
 	BCRYPT_ROUNDS,
+	DATABASE_URL,
 } = process.env;
 
 module.exports = {
@@ -17,4 +18,5 @@ module.exports = {
 	expires: JWT_EXPIRES,
 	secret: JWT_SECRET,
 	rounds: BCRYPT_ROUNDS,
+	DATABASE_URL: DATABASE_URL,
 };
